@@ -1,0 +1,54 @@
+﻿Modelo de Requisitos
+Banco de Dados para o Laboratório de Métodos de Estudos Subaquáticos e Cefalópodes (LAMECE)
+
+
+Luiza Kittel Chiká
+
+
+1. Descrição do cenário
+O laboratório trabalha com registros de campo, fotografias e vídeos de polvos obtidos em diferentes localidades e expedições. Atualmente, parte dessas informações é organizada em planilhas, enquanto os arquivos de mídia são armazenados separadamente no Google Drive. Essa organização dificulta a consulta conjunta dos dados, a localização de arquivos específicos e o acompanhamento das informações cadastradas. Por isso, foi proposta a criação de um banco de dados relacional para centralizar os registros e facilitar sua organização e recuperação.
+Os trabalhos de campo ocorrem, quase sempre, em viagens, aqui denominadas expedições, realizadas em cidades ou ilhas. Via de regra, uma expedição abrange mais de um local de mergulho ou trabalho, como praias, regiões de poças de maré ou pontos de mergulho afastados da costa. As expedições são compostas por integrantes, que produzem relatórios de campo, normalmente referentes à expedição como um todo. Além disso, os avistamentos de polvos alimentam uma planilha padronizada que reúne informações sobre tamanho do animal, espécie, comportamento, data, profundidade, entre outras.
+Durante os trabalhos de campo, também são produzidas muitas fotografias e vídeos. Embora grande parte dessas mídias esteja associada a avistamentos registrados na planilha, outras documentam habitats ou situações que não correspondem a um registro individual de polvo. Por isso, as mídias devem poder ser cadastradas independentemente dos registros de campo, mantendo sempre sua associação a uma localidade.
+Nos últimos anos, o laboratório também tem trabalhado na recuperação e padronização de dados produzidos em expedições às ilhas oceânicas brasileiras ao longo de aproximadamente 20 anos. Esses dados são bastante heterogêneos em sua estrutura, mas podem ser relacionados por informações como localidade, espécie e data. Inicialmente, a proposta era criar um banco apenas para esses registros históricos, mas a prioridade passou a ser o desenvolvimento de uma estrutura adequada à rotina atual do laboratório, que também permita integrar os dados antigos, mesmo quando não atendam a todos os novos padrões estabelecidos.
+A ideia é que o banco de dados seja simples de alimentar pelos integrantes, permita controlar as alterações nos registros já cadastrados e torne o cadastro de mídias mais organizado e seguro. Atualmente, esse processo depende de uma grande planilha que, após preenchida, gera um nome padronizado para o arquivo no Google Drive e um identificador único. A proposta é simplificar esse procedimento, armazenando os metadados das mídias no banco e mantendo os arquivos no Drive, vinculados por seus respectivos links. Também foram previstas a classificação das mídias por tags, sua organização em lotes e a possibilidade de registrar comentários para conferência das informações.
+Como os registros estão associados a localidades, também existe o interesse de integrar futuramente o banco a um Sistema de Informação Geográfica (SIG), permitindo consultas e visualização dos dados em mapas. O laboratório eventualmente recebe solicitações de órgãos como o ICMBio para compartilhar dados de monitoramento de determinadas regiões, e essas informações costumam ser solicitadas em formatos compatíveis com SIG.
+Nesta etapa do projeto, o foco é a modelagem e implementação da estrutura relacional em SQLite, incluindo as tabelas, seus relacionamentos e consultas SQL. A criação de uma interface de cadastro e consulta, assim como a integração com SIG e a automatização do vínculo com o Google Drive, ficam como possibilidades de desenvolvimento futuro.
+
+
+2. Objetivos
+Organizar os registros de campo e as mídias associadas às pesquisas com polvos, permitindo cadastrar, consultar e atualizar informações de forma estruturada. O sistema também deve permitir a classificação das mídias por características biológicas, o vínculo com expedições e localidades e a identificação dos responsáveis pelos cadastros.
+
+
+3. Requisitos funcionais
+* Cadastrar e consultar registros de campo, incluindo data, localidade, identificação taxonômica e informações ambientais.
+* Cadastrar fotografias e vídeos, armazenando seus metadados e o link para o arquivo no Google Drive.
+* Associar mídias a registros de campo, quando houver correspondência.
+* Cadastrar localidades e expedições, incluindo seus integrantes.
+* Organizar mídias em lotes de acordo com o contexto de coleta.
+* Manter informações taxonômicas de família, gênero e espécie.
+* Classificar mídias por meio de tags previamente cadastradas.
+* Consultar registros e mídias utilizando filtros como localidade, espécie, data e tags.
+* Permitir comentários nas mídias para conferência e revisão dos dados.
+* Cadastrar usuários e associá-los a diferentes permissões de acesso.
+* Identificar os usuários responsáveis pelo cadastro e pelas alterações dos registros.
+* Manter um histórico das alterações realizadas nos dados.
+* Cadastrar relatórios de expedições e seus respectivos autores.
+
+
+4. Requisitos não funcionais
+* O armazenamento das mídias deve permanecer externo ao banco, utilizando links para os arquivos.
+* O banco deve permitir consultas SQL para recuperação e análise das informações.
+* O acesso às operações de cadastro, edição e exclusão deve considerar as permissões dos usuários.
+* A estrutura deve permitir a inclusão de novos registros, localidades, espécies e tags sem necessidade de reorganizar os dados existentes.
+
+
+5. Regras de negócio
+* Cada mídia deve estar associada a uma localidade.
+* Uma mídia pode ou não estar vinculada a um registro de campo.
+* Um registro de campo deve possuir identificação ao nível de gênero, sendo a espécie opcional.
+* Cada mídia pode receber várias tags, e uma mesma tag pode ser utilizada em diferentes mídias.
+* Uma expedição pode possuir vários integrantes, e um integrante pode participar de diferentes expedições.
+* Um relatório deve estar associado a uma expedição e pode possuir vários autores.
+* Cada mídia pode pertencer a um lote, mas o lote deve existir antes da associação.
+* Os cadastros devem identificar o usuário responsável.
+* As exclusões de registros de campo e mídias devem preservar as informações necessárias para seu controle histórico.

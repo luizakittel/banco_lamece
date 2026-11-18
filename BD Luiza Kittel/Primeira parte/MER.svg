@@ -1,0 +1,1441 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3532pt" height="4407pt" viewBox="0.00 0.00 3532.00 4407.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(28.8 4377.8)">
+<title>MER</title>
+<polygon fill="white" stroke="none" points="-28.8,28.8 -28.8,-4377.8 3502.77,-4377.8 3502.77,28.8 -28.8,28.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1736.99" y="-4327" font-family="Arial" font-size="20.00">MER - Registros de campo e midias de polvos</text>
+<g id="clust1" class="cluster">
+<title>cluster_campo</title>
+<path fill="#f2f7fb" stroke="#afc8dc" d="M20,-1526C20,-1526 1944.73,-1526 1944.73,-1526 1950.73,-1526 1956.73,-1532 1956.73,-1538 1956.73,-1538 1956.73,-2030 1956.73,-2030 1956.73,-2036 1950.73,-2042 1944.73,-2042 1944.73,-2042 20,-2042 20,-2042 14,-2042 8,-2036 8,-2030 8,-2030 8,-1538 8,-1538 8,-1532 14,-1526 20,-1526"/>
+<text xml:space="preserve" text-anchor="middle" x="982.37" y="-2020" font-family="Arial" font-size="20.00">Expedicoes e localidades</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_registros</title>
+<path fill="#f3f9f1" stroke="#b8d3b1" d="M462.06,-2314C462.06,-2314 2640.82,-2314 2640.82,-2314 2646.82,-2314 2652.82,-2320 2652.82,-2326 2652.82,-2326 2652.82,-3178 2652.82,-3178 2652.82,-3184 2646.82,-3190 2640.82,-3190 2640.82,-3190 462.06,-3190 462.06,-3190 456.06,-3190 450.06,-3184 450.06,-3178 450.06,-3178 450.06,-2326 450.06,-2326 450.06,-2320 456.06,-2314 462.06,-2314"/>
+<text xml:space="preserve" text-anchor="middle" x="1551.44" y="-3168" font-family="Arial" font-size="20.00">Taxonomia e registros de campo</text>
+</g>
+<g id="clust10" class="cluster">
+<title>cluster_midias</title>
+<path fill="#fff9ef" stroke="#dfc69c" d="M2189.95,-3325C2189.95,-3325 3453.97,-3325 3453.97,-3325 3459.97,-3325 3465.97,-3331 3465.97,-3337 3465.97,-3337 3465.97,-4261 3465.97,-4261 3465.97,-4267 3459.97,-4273 3453.97,-4273 3453.97,-4273 2189.95,-4273 2189.95,-4273 2183.95,-4273 2177.95,-4267 2177.95,-4261 2177.95,-4261 2177.95,-3337 2177.95,-3337 2177.95,-3331 2183.95,-3325 2189.95,-3325"/>
+<text xml:space="preserve" text-anchor="middle" x="2821.96" y="-4251" font-family="Arial" font-size="20.00">Midias e classificacao</text>
+</g>
+<g id="clust14" class="cluster">
+<title>cluster_controle</title>
+<path fill="#f8f4fc" stroke="#cebfe0" d="M458.73,-138C458.73,-138 1367.02,-138 1367.02,-138 1373.02,-138 1379.02,-144 1379.02,-150 1379.02,-150 1379.02,-930 1379.02,-930 1379.02,-936 1373.02,-942 1367.02,-942 1367.02,-942 458.73,-942 458.73,-942 452.73,-942 446.73,-936 446.73,-930 446.73,-930 446.73,-150 446.73,-150 446.73,-144 452.73,-138 458.73,-138"/>
+<text xml:space="preserve" text-anchor="middle" x="912.87" y="-920" font-family="Arial" font-size="20.00">Usuarios e controle</text>
+</g>
+<!-- CidadeIlha -->
+<g id="node1" class="node">
+<title>CidadeIlha</title>
+<polygon fill="none" stroke="black" points="97.58,-1930 16,-1930 16,-1894 97.58,-1894 97.58,-1930"/>
+<text xml:space="preserve" text-anchor="middle" x="56.79" y="-1909" font-family="Arial" font-size="10.00">CIDADE_ILHA</text>
+</g>
+<!-- ci_id -->
+<g id="node6" class="node">
+<title>ci_id</title>
+<ellipse fill="none" stroke="black" cx="237.72" cy="-1984" rx="55.14" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="237.72" y="-1981.3" font-family="Arial" font-size="9.00">id_cidade_ilha (PK)</text>
+</g>
+<!-- CidadeIlha&#45;&#45;ci_id -->
+<g id="edge1" class="edge">
+<title>CidadeIlha--ci_id</title>
+<path fill="none" stroke="black" d="M97.94,-1928.16C129.16,-1940.72 172.04,-1957.97 201.83,-1969.96"/>
+</g>
+<!-- ci_tipo -->
+<g id="node7" class="node">
+<title>ci_tipo</title>
+<ellipse fill="none" stroke="black" cx="237.72" cy="-1696" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="237.72" y="-1693.3" font-family="Arial" font-size="9.00">tipo</text>
+</g>
+<!-- CidadeIlha&#45;&#45;ci_tipo -->
+<g id="edge2" class="edge">
+<title>CidadeIlha--ci_tipo</title>
+<path fill="none" stroke="black" d="M70.44,-1893.75C102.17,-1847.99 182.58,-1732 182.58,-1732 182.58,-1732 202.17,-1718.97 217.79,-1708.59"/>
+</g>
+<!-- ci_estado -->
+<g id="node8" class="node">
+<title>ci_estado</title>
+<ellipse fill="none" stroke="black" cx="237.72" cy="-1768" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="237.72" y="-1765.3" font-family="Arial" font-size="9.00">estado</text>
+</g>
+<!-- CidadeIlha&#45;&#45;ci_estado -->
+<g id="edge3" class="edge">
+<title>CidadeIlha--ci_estado</title>
+<path fill="none" stroke="black" d="M78.96,-1893.68C114.56,-1862.87 182.58,-1804 182.58,-1804 182.58,-1804 202.17,-1790.97 217.79,-1780.59"/>
+</g>
+<!-- ci_pais -->
+<g id="node9" class="node">
+<title>ci_pais</title>
+<ellipse fill="none" stroke="black" cx="237.72" cy="-1840" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="237.72" y="-1837.3" font-family="Arial" font-size="9.00">pais</text>
+</g>
+<!-- CidadeIlha&#45;&#45;ci_pais -->
+<g id="edge4" class="edge">
+<title>CidadeIlha--ci_pais</title>
+<path fill="none" stroke="black" d="M97.94,-1895.84C133.7,-1881.45 184.73,-1860.92 213.91,-1849.18"/>
+</g>
+<!-- ci_desc -->
+<g id="node10" class="node">
+<title>ci_desc</title>
+<ellipse fill="none" stroke="black" cx="237.72" cy="-1912" rx="31.96" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="237.72" y="-1909.3" font-family="Arial" font-size="9.00">descricao</text>
+</g>
+<!-- CidadeIlha&#45;&#45;ci_desc -->
+<g id="edge5" class="edge">
+<title>CidadeIlha--ci_desc</title>
+<path fill="none" stroke="black" d="M97.94,-1912C130.4,-1912 175.45,-1912 205.31,-1912"/>
+</g>
+<!-- r1 -->
+<g id="node89" class="node">
+<title>r1</title>
+<polygon fill="#f9e4bc" stroke="black" points="370.6,-2215 332.86,-2197 370.6,-2179 408.34,-2197 370.6,-2215"/>
+<text xml:space="preserve" text-anchor="middle" x="370.6" y="-2194.3" font-family="Arial" font-size="9.00">contem</text>
+</g>
+<!-- CidadeIlha&#45;&#45;r1 -->
+<g id="edge73" class="edge">
+<title>CidadeIlha--r1</title>
+<path fill="none" stroke="black" d="M69.75,-1930.41C100.99,-1978.47 182.58,-2104 182.58,-2104 182.58,-2104 304.27,-2164.51 351.33,-2187.91"/>
+<text xml:space="preserve" text-anchor="middle" x="140.08" y="-2043.04" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- r2 -->
+<g id="node90" class="node">
+<title>r2</title>
+<polygon fill="#f9e4bc" stroke="black" points="237.72,-2086 190.02,-2068 237.72,-2050 285.42,-2068 237.72,-2086"/>
+<text xml:space="preserve" text-anchor="middle" x="237.72" y="-2065.3" font-family="Arial" font-size="9.00">destino de</text>
+</g>
+<!-- CidadeIlha&#45;&#45;r2 -->
+<g id="edge75" class="edge">
+<title>CidadeIlha--r2</title>
+<path fill="none" stroke="black" d="M74.88,-1930.35C109.06,-1967.05 182.58,-2046 182.58,-2046 182.58,-2046 199.01,-2052.67 213.76,-2058.67"/>
+<text xml:space="preserve" text-anchor="middle" x="140.08" y="-2005.36" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- Local -->
+<g id="node2" class="node">
+<title>Local</title>
+<polygon fill="none" stroke="black" points="1654.3,-1858 1600.3,-1858 1600.3,-1822 1654.3,-1822 1654.3,-1858"/>
+<text xml:space="preserve" text-anchor="middle" x="1627.3" y="-1837" font-family="Arial" font-size="10.00">LOCAL</text>
+</g>
+<!-- loc_id -->
+<g id="node11" class="node">
+<title>loc_id</title>
+<ellipse fill="none" stroke="black" cx="1896.82" cy="-1840" rx="39.29" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1896.82" y="-1837.3" font-family="Arial" font-size="9.00">id_local (PK)</text>
+</g>
+<!-- Local&#45;&#45;loc_id -->
+<g id="edge6" class="edge">
+<title>Local--loc_id</title>
+<path fill="none" stroke="black" d="M1654.43,-1840C1701.77,-1840 1801.88,-1840 1857.15,-1840"/>
+</g>
+<!-- loc_lat -->
+<g id="node12" class="node">
+<title>loc_lat</title>
+<ellipse fill="none" stroke="black" cx="1896.82" cy="-1912" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1896.82" y="-1909.3" font-family="Arial" font-size="9.00">latitude</text>
+</g>
+<!-- Local&#45;&#45;loc_lat -->
+<g id="edge7" class="edge">
+<title>Local--loc_lat</title>
+<path fill="none" stroke="black" d="M1654.43,-1847.03C1706.24,-1860.98 1821.26,-1891.93 1871.52,-1905.46"/>
+</g>
+<!-- loc_lon -->
+<g id="node13" class="node">
+<title>loc_lon</title>
+<ellipse fill="none" stroke="black" cx="1896.82" cy="-1984" rx="30.8" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1896.82" y="-1981.3" font-family="Arial" font-size="9.00">longitude</text>
+</g>
+<!-- Local&#45;&#45;loc_lon -->
+<g id="edge8" class="edge">
+<title>Local--loc_lon</title>
+<path fill="none" stroke="black" d="M1654.59,-1854.34C1708.45,-1883.72 1826.31,-1948 1826.31,-1948 1826.31,-1948 1852.79,-1961.71 1873.06,-1972.21"/>
+</g>
+<!-- loc_desc -->
+<g id="node14" class="node">
+<title>loc_desc</title>
+<ellipse fill="none" stroke="black" cx="1896.82" cy="-1768" rx="31.96" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1896.82" y="-1765.3" font-family="Arial" font-size="9.00">descricao</text>
+</g>
+<!-- Local&#45;&#45;loc_desc -->
+<g id="edge9" class="edge">
+<title>Local--loc_desc</title>
+<path fill="none" stroke="black" d="M1654.43,-1832.97C1704.92,-1819.38 1815.46,-1789.63 1867.57,-1775.6"/>
+</g>
+<!-- r10 -->
+<g id="node98" class="node">
+<title>r10</title>
+<polygon fill="#f9e4bc" stroke="black" points="1896.82,-1498 1858.67,-1480 1896.82,-1462 1934.98,-1480 1896.82,-1498"/>
+<text xml:space="preserve" text-anchor="middle" x="1896.82" y="-1477.3" font-family="Arial" font-size="9.00">localiza</text>
+</g>
+<!-- Local&#45;&#45;r10 -->
+<g id="edge91" class="edge">
+<title>Local--r10</title>
+<path fill="none" stroke="black" d="M1639.51,-1821.71C1681.4,-1753.38 1826.31,-1517 1826.31,-1517 1826.31,-1517 1857.33,-1500.49 1877.92,-1489.53"/>
+<text xml:space="preserve" text-anchor="middle" x="1746.91" y="-1710.13" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- r11 -->
+<g id="node99" class="node">
+<title>r11</title>
+<polygon fill="#f9e4bc" stroke="black" points="2067.89,-1493 2029.74,-1475 2067.89,-1457 2106.04,-1475 2067.89,-1493"/>
+<text xml:space="preserve" text-anchor="middle" x="2067.89" y="-1472.3" font-family="Arial" font-size="9.00">localiza</text>
+</g>
+<!-- Local&#45;&#45;r11 -->
+<g id="edge93" class="edge">
+<title>Local--r11</title>
+<path fill="none" stroke="black" d="M1633.62,-1821.68C1651.38,-1760.51 1707.52,-1567.2 1707.52,-1567.2 1707.52,-1567.2 1826.31,-1444 1826.31,-1444 1826.31,-1444 1967.34,-1444 1967.34,-1444 1967.34,-1444 2014.93,-1458.82 2044.3,-1467.97"/>
+<text xml:space="preserve" text-anchor="middle" x="1746.91" y="-1569.9" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- Expedicao -->
+<g id="node3" class="node">
+<title>Expedicao</title>
+<polygon fill="none" stroke="black" points="522.69,-1930 448.34,-1930 448.34,-1894 522.69,-1894 522.69,-1930"/>
+<text xml:space="preserve" text-anchor="middle" x="485.51" y="-1909" font-family="Arial" font-size="10.00">EXPEDICAO</text>
+</g>
+<!-- exp_id -->
+<g id="node15" class="node">
+<title>exp_id</title>
+<ellipse fill="none" stroke="black" cx="688.62" cy="-1912" rx="52.5" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-1909.3" font-family="Arial" font-size="9.00">id_expedicao (PK)</text>
+</g>
+<!-- Expedicao&#45;&#45;exp_id -->
+<g id="edge10" class="edge">
+<title>Expedicao--exp_id</title>
+<path fill="none" stroke="black" d="M522.93,-1912C554.51,-1912 600.58,-1912 635.96,-1912"/>
+</g>
+<!-- exp_nome -->
+<g id="node16" class="node">
+<title>exp_nome</title>
+<ellipse fill="none" stroke="black" cx="688.62" cy="-1984" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-1981.3" font-family="Arial" font-size="9.00">nome</text>
+</g>
+<!-- Expedicao&#45;&#45;exp_nome -->
+<g id="edge11" class="edge">
+<title>Expedicao--exp_nome</title>
+<path fill="none" stroke="black" d="M522.93,-1925.04C564.02,-1939.75 629.63,-1963.24 664.33,-1975.66"/>
+</g>
+<!-- exp_inicio -->
+<g id="node17" class="node">
+<title>exp_inicio</title>
+<ellipse fill="none" stroke="black" cx="688.62" cy="-1696" rx="34.61" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-1693.3" font-family="Arial" font-size="9.00">data_inicio</text>
+</g>
+<!-- Expedicao&#45;&#45;exp_inicio -->
+<g id="edge12" class="edge">
+<title>Expedicao--exp_inicio</title>
+<path fill="none" stroke="black" d="M499.81,-1893.75C533.16,-1847.99 617.7,-1732 617.7,-1732 617.7,-1732 643,-1718.97 663.16,-1708.59"/>
+</g>
+<!-- exp_fim -->
+<g id="node18" class="node">
+<title>exp_fim</title>
+<ellipse fill="none" stroke="black" cx="688.62" cy="-1768" rx="29.62" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-1765.3" font-family="Arial" font-size="9.00">data_fim</text>
+</g>
+<!-- Expedicao&#45;&#45;exp_fim -->
+<g id="edge13" class="edge">
+<title>Expedicao--exp_fim</title>
+<path fill="none" stroke="black" d="M508.76,-1893.68C546.19,-1862.87 617.7,-1804 617.7,-1804 617.7,-1804 645.01,-1789.94 665.49,-1779.39"/>
+</g>
+<!-- exp_desc -->
+<g id="node19" class="node">
+<title>exp_desc</title>
+<ellipse fill="none" stroke="black" cx="688.62" cy="-1840" rx="31.96" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-1837.3" font-family="Arial" font-size="9.00">descricao</text>
+</g>
+<!-- Expedicao&#45;&#45;exp_desc -->
+<g id="edge14" class="edge">
+<title>Expedicao--exp_desc</title>
+<path fill="none" stroke="black" d="M522.93,-1898.96C562.77,-1884.7 625.67,-1862.18 661.09,-1849.5"/>
+</g>
+<!-- r3 -->
+<g id="node91" class="node">
+<title>r3</title>
+<polygon fill="#f9e4bc" stroke="black" points="688.62,-2086 647.15,-2068 688.62,-2050 730.09,-2068 688.62,-2086"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-2065.3" font-family="Arial" font-size="9.00">participa</text>
+</g>
+<!-- Expedicao&#45;&#45;r3 -->
+<g id="edge77" class="edge">
+<title>Expedicao--r3</title>
+<path fill="none" stroke="black" d="M504.48,-1930.35C540.41,-1967.05 617.7,-2046 617.7,-2046 617.7,-2046 643.33,-2054.07 663.56,-2060.43"/>
+<text xml:space="preserve" text-anchor="middle" x="570.19" y="-2005.36" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r4 -->
+<g id="node92" class="node">
+<title>r4</title>
+<polygon fill="#f9e4bc" stroke="black" points="688.62,-1518 653.78,-1500 688.62,-1482 723.46,-1500 688.62,-1518"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-1497.3" font-family="Arial" font-size="9.00">possui</text>
+</g>
+<!-- Expedicao&#45;&#45;r4 -->
+<g id="edge79" class="edge">
+<title>Expedicao--r4</title>
+<path fill="none" stroke="black" d="M492.66,-1893.71C518.6,-1816.61 617.7,-1522 617.7,-1522 617.7,-1522 645.7,-1513.19 666.26,-1506.72"/>
+<text xml:space="preserve" text-anchor="middle" x="570.19" y="-1684.77" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- r21 -->
+<g id="node109" class="node">
+<title>r21</title>
+<polygon fill="#f9e4bc" stroke="black" points="852.63,-2159 799.54,-2141 852.63,-2123 905.72,-2141 852.63,-2159"/>
+<text xml:space="preserve" text-anchor="middle" x="852.63" y="-2138.3" font-family="Arial" font-size="9.00">associado a</text>
+</g>
+<!-- Expedicao&#45;&#45;r21 -->
+<g id="edge113" class="edge">
+<title>Expedicao--r21</title>
+<path fill="none" stroke="black" d="M499.09,-1930.41C531.92,-1978.47 617.7,-2104 617.7,-2104 617.7,-2104 749.29,-2124.81 815.08,-2135.22"/>
+<text xml:space="preserve" text-anchor="middle" x="570.19" y="-2046.91" font-family="Arial" font-size="9.00">0..1</text>
+</g>
+<!-- Integrante -->
+<g id="node4" class="node">
+<title>Integrante</title>
+<polygon fill="none" stroke="black" points="1667.52,-1570 1587.07,-1570 1587.07,-1534 1667.52,-1534 1667.52,-1570"/>
+<text xml:space="preserve" text-anchor="middle" x="1627.3" y="-1549" font-family="Arial" font-size="10.00">INTEGRANTE</text>
+</g>
+<!-- int_id -->
+<g id="node20" class="node">
+<title>int_id</title>
+<ellipse fill="none" stroke="black" cx="1896.82" cy="-1624" rx="51.91" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1896.82" y="-1621.3" font-family="Arial" font-size="9.00">id_integrante (PK)</text>
+</g>
+<!-- Integrante&#45;&#45;int_id -->
+<g id="edge15" class="edge">
+<title>Integrante--int_id</title>
+<path fill="none" stroke="black" d="M1667.77,-1562.62C1717.91,-1576.12 1804.03,-1599.3 1854.87,-1612.98"/>
+</g>
+<!-- int_email -->
+<g id="node21" class="node">
+<title>int_email</title>
+<ellipse fill="none" stroke="black" cx="1896.82" cy="-1696" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1896.82" y="-1693.3" font-family="Arial" font-size="9.00">email</text>
+</g>
+<!-- Integrante&#45;&#45;int_email -->
+<g id="edge16" class="edge">
+<title>Integrante--int_email</title>
+<path fill="none" stroke="black" d="M1661.89,-1570.32C1718.38,-1601.13 1826.31,-1660 1826.31,-1660 1826.31,-1660 1854.49,-1674.59 1874.97,-1685.2"/>
+</g>
+<!-- int_inst -->
+<g id="node22" class="node">
+<title>int_inst</title>
+<ellipse fill="none" stroke="black" cx="1896.82" cy="-1552" rx="32.84" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1896.82" y="-1549.3" font-family="Arial" font-size="9.00">instituicao</text>
+</g>
+<!-- Integrante&#45;&#45;int_inst -->
+<g id="edge17" class="edge">
+<title>Integrante--int_inst</title>
+<path fill="none" stroke="black" d="M1667.77,-1552C1720.97,-1552 1814.64,-1552 1863.74,-1552"/>
+</g>
+<!-- r22 -->
+<g id="node110" class="node">
+<title>r22</title>
+<polygon fill="#f9e4bc" stroke="black" points="1896.82,-1352 1829.22,-1334 1896.82,-1316 1964.43,-1334 1896.82,-1352"/>
+<text xml:space="preserve" text-anchor="middle" x="1896.82" y="-1331.3" font-family="Arial" font-size="9.00">autor do registro</text>
+</g>
+<!-- Integrante&#45;&#45;r22 -->
+<g id="edge115" class="edge">
+<title>Integrante--r22</title>
+<path fill="none" stroke="black" d="M1635.47,-1533.83C1654.97,-1484.4 1707.52,-1351.2 1707.52,-1351.2 1707.52,-1351.2 1789.1,-1343.75 1844.87,-1338.65"/>
+<text xml:space="preserve" text-anchor="middle" x="1746.91" y="-1353.9" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- r23 -->
+<g id="node111" class="node">
+<title>r23</title>
+<polygon fill="#f9e4bc" stroke="black" points="2067.89,-1165 2007.34,-1147 2067.89,-1129 2128.45,-1147 2067.89,-1165"/>
+<text xml:space="preserve" text-anchor="middle" x="2067.89" y="-1144.3" font-family="Arial" font-size="9.00">autor da midia</text>
+</g>
+<!-- Integrante&#45;&#45;r23 -->
+<g id="edge117" class="edge">
+<title>Integrante--r23</title>
+<path fill="none" stroke="black" d="M1634.64,-1533.74C1653.44,-1479.69 1707.52,-1324.2 1707.52,-1324.2 1707.52,-1324.2 1964.55,-1197.46 2043.86,-1158.35"/>
+<text xml:space="preserve" text-anchor="middle" x="1746.91" y="-1326.9" font-family="Arial" font-size="9.00">0..1</text>
+</g>
+<!-- Relatorio -->
+<g id="node5" class="node">
+<title>Relatorio</title>
+<polygon fill="none" stroke="black" points="1051.46,-1570 977.67,-1570 977.67,-1534 1051.46,-1534 1051.46,-1570"/>
+<text xml:space="preserve" text-anchor="middle" x="1014.57" y="-1549" font-family="Arial" font-size="10.00">RELATORIO</text>
+</g>
+<!-- rel_id -->
+<g id="node23" class="node">
+<title>rel_id</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-1552" rx="47.51" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-1549.3" font-family="Arial" font-size="9.00">id_relatorio (PK)</text>
+</g>
+<!-- Relatorio&#45;&#45;rel_id -->
+<g id="edge18" class="edge">
+<title>Relatorio--rel_id</title>
+<path fill="none" stroke="black" d="M1051.96,-1552C1106.65,-1552 1210.04,-1552 1270.32,-1552"/>
+</g>
+<!-- rel_titulo -->
+<g id="node24" class="node">
+<title>rel_titulo</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-1624" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-1621.3" font-family="Arial" font-size="9.00">titulo</text>
+</g>
+<!-- Relatorio&#45;&#45;rel_titulo -->
+<g id="edge19" class="edge">
+<title>Relatorio--rel_titulo</title>
+<path fill="none" stroke="black" d="M1051.96,-1560.68C1114.17,-1575.53 1239.4,-1605.42 1292.51,-1618.1"/>
+</g>
+<!-- rel_data -->
+<g id="node25" class="node">
+<title>rel_data</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-1696" rx="41.65" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-1693.3" font-family="Arial" font-size="9.00">data_relatorio</text>
+</g>
+<!-- Relatorio&#45;&#45;rel_data -->
+<g id="edge20" class="edge">
+<title>Relatorio--rel_data</title>
+<path fill="none" stroke="black" d="M1051.96,-1569.37C1112.92,-1598.47 1234.37,-1656.45 1289.21,-1682.62"/>
+</g>
+<!-- rel_arquivo -->
+<g id="node26" class="node">
+<title>rel_arquivo</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-1768" rx="49.57" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-1765.3" font-family="Arial" font-size="9.00">caminho_arquivo</text>
+</g>
+<!-- Relatorio&#45;&#45;rel_arquivo -->
+<g id="edge21" class="edge">
+<title>Relatorio--rel_arquivo</title>
+<path fill="none" stroke="black" d="M1038.7,-1570.45C1070.39,-1595.72 1123.41,-1638 1123.41,-1638 1123.41,-1638 1241.71,-1717.35 1293.47,-1752.06"/>
+</g>
+<!-- r5 -->
+<g id="node93" class="node">
+<title>r5</title>
+<polygon fill="#f9e4bc" stroke="black" points="1318.23,-1498 1282.15,-1480 1318.23,-1462 1354.32,-1480 1318.23,-1498"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-1477.3" font-family="Arial" font-size="9.00">autoria</text>
+</g>
+<!-- Relatorio&#45;&#45;r5 -->
+<g id="edge81" class="edge">
+<title>Relatorio--r5</title>
+<path fill="none" stroke="black" d="M1051.96,-1543.32C1114.33,-1528.43 1240.03,-1498.43 1292.91,-1485.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1174.43" y="-1527.27" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- Familia -->
+<g id="node27" class="node">
+<title>Familia</title>
+<polygon fill="none" stroke="black" points="512.96,-2368 458.06,-2368 458.06,-2332 512.96,-2332 512.96,-2368"/>
+<text xml:space="preserve" text-anchor="middle" x="485.51" y="-2347" font-family="Arial" font-size="10.00">FAMILIA</text>
+</g>
+<!-- fam_id -->
+<g id="node31" class="node">
+<title>fam_id</title>
+<ellipse fill="none" stroke="black" cx="688.62" cy="-2360" rx="43.69" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-2357.3" font-family="Arial" font-size="9.00">id_familia (PK)</text>
+</g>
+<!-- Familia&#45;&#45;fam_id -->
+<g id="edge22" class="edge">
+<title>Familia--fam_id</title>
+<path fill="none" stroke="black" d="M513.22,-2351.33C546.87,-2353 605.13,-2355.9 644.98,-2357.88"/>
+</g>
+<!-- r6 -->
+<g id="node94" class="node">
+<title>r6</title>
+<polygon fill="#f9e4bc" stroke="black" points="688.62,-2306 650.88,-2288 688.62,-2270 726.36,-2288 688.62,-2306"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-2285.3" font-family="Arial" font-size="9.00">contem</text>
+</g>
+<!-- Familia&#45;&#45;r6 -->
+<g id="edge83" class="edge">
+<title>Familia--r6</title>
+<path fill="none" stroke="black" d="M513.22,-2341.77C553.07,-2329.48 627.42,-2306.56 664.85,-2295.02"/>
+<text xml:space="preserve" text-anchor="middle" x="570.19" y="-2329.08" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- Genero -->
+<g id="node28" class="node">
+<title>Genero</title>
+<polygon fill="none" stroke="black" points="1044.24,-2765 984.9,-2765 984.9,-2729 1044.24,-2729 1044.24,-2765"/>
+<text xml:space="preserve" text-anchor="middle" x="1014.57" y="-2744" font-family="Arial" font-size="10.00">GENERO</text>
+</g>
+<!-- gen_id -->
+<g id="node32" class="node">
+<title>gen_id</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-2747" rx="44.87" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-2744.3" font-family="Arial" font-size="9.00">id_genero (PK)</text>
+</g>
+<!-- Genero&#45;&#45;gen_id -->
+<g id="edge23" class="edge">
+<title>Genero--gen_id</title>
+<path fill="none" stroke="black" d="M1044.49,-2747C1097.43,-2747 1210.22,-2747 1272.91,-2747"/>
+</g>
+<!-- r7 -->
+<g id="node95" class="node">
+<title>r7</title>
+<polygon fill="#f9e4bc" stroke="black" points="1318.23,-3234 1280.5,-3216 1318.23,-3198 1355.97,-3216 1318.23,-3234"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-3213.3" font-family="Arial" font-size="9.00">contem</text>
+</g>
+<!-- Genero&#45;&#45;r7 -->
+<g id="edge85" class="edge">
+<title>Genero--r7</title>
+<path fill="none" stroke="black" d="M1025.83,-2765.36C1072.85,-2849.47 1265.45,-3194 1265.45,-3194 1265.45,-3194 1282.76,-3201.35 1297.36,-3207.56"/>
+<text xml:space="preserve" text-anchor="middle" x="1174.43" y="-3121.76" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- r8 -->
+<g id="node96" class="node">
+<title>r8</title>
+<polygon fill="#f9e4bc" stroke="black" points="1479.04,-2306 1411.02,-2288 1479.04,-2270 1547.07,-2288 1479.04,-2306"/>
+<text xml:space="preserve" text-anchor="middle" x="1479.04" y="-2285.3" font-family="Arial" font-size="9.00">identifica genero</text>
+</g>
+<!-- Genero&#45;&#45;r8 -->
+<g id="edge87" class="edge">
+<title>Genero--r8</title>
+<path fill="none" stroke="black" d="M1033.98,-2728.72C1109.75,-2653.53 1396.59,-2368.84 1463.86,-2302.07"/>
+<text xml:space="preserve" text-anchor="middle" x="1174.43" y="-2642.18" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- r26 -->
+<g id="node114" class="node">
+<title>r26</title>
+<polygon fill="#f9e4bc" stroke="black" points="2389.42,-4317 2321.39,-4299 2389.42,-4281 2457.44,-4299 2389.42,-4317"/>
+<text xml:space="preserve" text-anchor="middle" x="2389.42" y="-4296.3" font-family="Arial" font-size="9.00">identifica genero</text>
+</g>
+<!-- Genero&#45;&#45;r26 -->
+<g id="edge123" class="edge">
+<title>Genero--r26</title>
+<path fill="none" stroke="black" d="M1019.11,-2765.25C1052.93,-2939.32 1317.23,-4300 1317.23,-4300 1317.23,-4300 1317.23,-4300 2068.89,-4300 2068.89,-4300 2226.42,-4299.51 2320.26,-4299.21"/>
+<text xml:space="preserve" text-anchor="middle" x="1627.3" y="-4302.7" font-family="Arial" font-size="9.00">0..1</text>
+</g>
+<!-- Especie -->
+<g id="node29" class="node">
+<title>Especie</title>
+<polygon fill="none" stroke="black" points="1656.97,-3150 1597.62,-3150 1597.62,-3114 1656.97,-3114 1656.97,-3150"/>
+<text xml:space="preserve" text-anchor="middle" x="1627.3" y="-3129" font-family="Arial" font-size="10.00">ESPECIE</text>
+</g>
+<!-- esp_id -->
+<g id="node33" class="node">
+<title>esp_id</title>
+<ellipse fill="none" stroke="black" cx="1896.82" cy="-3060" rx="46.63" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1896.82" y="-3057.3" font-family="Arial" font-size="9.00">id_especie (PK)</text>
+</g>
+<!-- Especie&#45;&#45;esp_id -->
+<g id="edge24" class="edge">
+<title>Especie--esp_id</title>
+<path fill="none" stroke="black" d="M1657.43,-3124.16C1706.05,-3111.07 1803.69,-3084.8 1857.71,-3070.26"/>
+</g>
+<!-- esp_aut -->
+<g id="node34" class="node">
+<title>esp_aut</title>
+<ellipse fill="none" stroke="black" cx="1896.82" cy="-3132" rx="64.24" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1896.82" y="-3129.3" font-family="Arial" font-size="9.00">autoridade_taxonomica</text>
+</g>
+<!-- Especie&#45;&#45;esp_aut -->
+<g id="edge25" class="edge">
+<title>Especie--esp_aut</title>
+<path fill="none" stroke="black" d="M1657.43,-3132C1699.15,-3132 1776.94,-3132 1832.31,-3132"/>
+</g>
+<!-- r9 -->
+<g id="node97" class="node">
+<title>r9</title>
+<polygon fill="#f9e4bc" stroke="black" points="1896.82,-3234 1826.31,-3216 1896.82,-3198 1967.34,-3216 1896.82,-3234"/>
+<text xml:space="preserve" text-anchor="middle" x="1896.82" y="-3213.3" font-family="Arial" font-size="9.00">identifica especie</text>
+</g>
+<!-- Especie&#45;&#45;r9 -->
+<g id="edge89" class="edge">
+<title>Especie--r9</title>
+<path fill="none" stroke="black" d="M1657.43,-3141.15C1707.95,-3157.01 1811.38,-3189.49 1863.82,-3205.95"/>
+<text xml:space="preserve" text-anchor="middle" x="1746.91" y="-3184.22" font-family="Arial" font-size="9.00">0..1</text>
+</g>
+<!-- r27 -->
+<g id="node115" class="node">
+<title>r27</title>
+<polygon fill="#f9e4bc" stroke="black" points="2389.42,-3269 2318.9,-3251 2389.42,-3233 2459.93,-3251 2389.42,-3269"/>
+<text xml:space="preserve" text-anchor="middle" x="2389.42" y="-3248.3" font-family="Arial" font-size="9.00">identifica especie</text>
+</g>
+<!-- Especie&#45;&#45;r27 -->
+<g id="edge125" class="edge">
+<title>Especie--r27</title>
+<path fill="none" stroke="black" d="M1649.53,-3150.49C1672.99,-3170.93 1707.52,-3201 1707.52,-3201 1707.52,-3201 1826.31,-3252 1826.31,-3252 1826.31,-3252 2007.34,-3279 2007.34,-3279 2007.34,-3279 2128.45,-3279 2128.45,-3279 2128.45,-3279 2262.75,-3264.54 2338.29,-3256.4"/>
+<text xml:space="preserve" text-anchor="middle" x="1896.82" y="-3275.56" font-family="Arial" font-size="9.00">0..1</text>
+</g>
+<!-- RegistroCampo -->
+<g id="node30" class="node">
+<title>RegistroCampo</title>
+<polygon fill="none" stroke="black" points="2278.9,-2574 2168.45,-2574 2168.45,-2538 2278.9,-2538 2278.9,-2574"/>
+<text xml:space="preserve" text-anchor="middle" x="2223.67" y="-2553" font-family="Arial" font-size="10.00">REGISTRO_CAMPO</text>
+</g>
+<!-- rc_id -->
+<g id="node35" class="node">
+<title>rc_id</title>
+<ellipse fill="none" stroke="black" cx="2572.37" cy="-2772" rx="46.04" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-2769.3" font-family="Arial" font-size="9.00">id_registro (PK)</text>
+</g>
+<!-- RegistroCampo&#45;&#45;rc_id -->
+<g id="edge26" class="edge">
+<title>RegistroCampo--rc_id</title>
+<path fill="none" stroke="black" d="M2246.06,-2574.38C2273.86,-2598.28 2318.9,-2637 2318.9,-2637 2318.9,-2637 2499.93,-2736 2499.93,-2736 2499.93,-2736 2523.17,-2747.71 2543.14,-2757.77"/>
+</g>
+<!-- rc_data -->
+<g id="node36" class="node">
+<title>rc_data</title>
+<ellipse fill="none" stroke="black" cx="2572.37" cy="-2844" rx="51.04" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-2841.3" font-family="Arial" font-size="9.00">data_avistamento</text>
+</g>
+<!-- RegistroCampo&#45;&#45;rc_data -->
+<g id="edge27" class="edge">
+<title>RegistroCampo--rc_data</title>
+<path fill="none" stroke="black" d="M2238.18,-2574.48C2264.23,-2610.15 2318.9,-2685 2318.9,-2685 2318.9,-2685 2499.93,-2808 2499.93,-2808 2499.93,-2808 2522.22,-2819.23 2541.9,-2829.15"/>
+</g>
+<!-- rc_hora -->
+<g id="node37" class="node">
+<title>rc_hora</title>
+<ellipse fill="none" stroke="black" cx="2572.37" cy="-2916" rx="51.33" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-2913.3" font-family="Arial" font-size="9.00">hora_avistamento</text>
+</g>
+<!-- RegistroCampo&#45;&#45;rc_hora -->
+<g id="edge28" class="edge">
+<title>RegistroCampo--rc_hora</title>
+<path fill="none" stroke="black" d="M2233.88,-2574.17C2257.59,-2620.98 2318.9,-2742 2318.9,-2742 2318.9,-2742 2499.93,-2880 2499.93,-2880 2499.93,-2880 2522.22,-2891.23 2541.9,-2901.15"/>
+</g>
+<!-- rc_tipo -->
+<g id="node38" class="node">
+<title>rc_tipo</title>
+<ellipse fill="none" stroke="black" cx="2572.37" cy="-2988" rx="50.15" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-2985.3" font-family="Arial" font-size="9.00">tipo_amostragem</text>
+</g>
+<!-- RegistroCampo&#45;&#45;rc_tipo -->
+<g id="edge29" class="edge">
+<title>RegistroCampo--rc_tipo</title>
+<path fill="none" stroke="black" d="M2231.6,-2574.24C2253.36,-2631.51 2318.9,-2804 2318.9,-2804 2318.9,-2804 2499.93,-2952 2499.93,-2952 2499.93,-2952 2522.53,-2963.39 2542.31,-2973.36"/>
+</g>
+<!-- rc_vis -->
+<g id="node39" class="node">
+<title>rc_vis</title>
+<ellipse fill="none" stroke="black" cx="2572.37" cy="-3060" rx="42.52" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-3057.3" font-family="Arial" font-size="9.00">visibilidade_m</text>
+</g>
+<!-- RegistroCampo&#45;&#45;rc_vis -->
+<g id="edge30" class="edge">
+<title>RegistroCampo--rc_vis</title>
+<path fill="none" stroke="black" d="M2230.15,-2574.24C2250.26,-2641.25 2318.9,-2870 2318.9,-2870 2318.9,-2870 2499.93,-3024 2499.93,-3024 2499.93,-3024 2523.81,-3036.03 2543.96,-3046.18"/>
+</g>
+<!-- rc_prof -->
+<g id="node40" class="node">
+<title>rc_prof</title>
+<ellipse fill="none" stroke="black" cx="2572.37" cy="-3132" rx="47.52" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-3129.3" font-family="Arial" font-size="9.00">profundidade_m</text>
+</g>
+<!-- RegistroCampo&#45;&#45;rc_prof -->
+<g id="edge31" class="edge">
+<title>RegistroCampo--rc_prof</title>
+<path fill="none" stroke="black" d="M2229.22,-2574.42C2248.04,-2650.73 2318.9,-2938 2318.9,-2938 2318.9,-2938 2499.93,-3096 2499.93,-3096 2499.93,-3096 2522.85,-3107.55 2542.73,-3117.56"/>
+</g>
+<!-- rc_temp -->
+<g id="node41" class="node">
+<title>rc_temp</title>
+<ellipse fill="none" stroke="black" cx="2572.37" cy="-2340" rx="58.08" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-2337.3" font-family="Arial" font-size="9.00">temperatura_agua_c</text>
+</g>
+<!-- RegistroCampo&#45;&#45;rc_temp -->
+<g id="edge32" class="edge">
+<title>RegistroCampo--rc_temp</title>
+<path fill="none" stroke="black" d="M2240.02,-2537.59C2266.72,-2505.57 2318.9,-2443 2318.9,-2443 2318.9,-2443 2466.52,-2382.78 2536,-2354.43"/>
+</g>
+<!-- rc_toca -->
+<g id="node42" class="node">
+<title>rc_toca</title>
+<ellipse fill="none" stroke="black" cx="2572.37" cy="-2412" rx="37.25" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-2409.3" font-family="Arial" font-size="9.00">dentro_toca</text>
+</g>
+<!-- RegistroCampo&#45;&#45;rc_toca -->
+<g id="edge33" class="edge">
+<title>RegistroCampo--rc_toca</title>
+<path fill="none" stroke="black" d="M2254.49,-2537.65C2282.1,-2520.66 2318.9,-2498 2318.9,-2498 2318.9,-2498 2474.16,-2445.12 2541.17,-2422.29"/>
+</g>
+<!-- rc_sexo -->
+<g id="node43" class="node">
+<title>rc_sexo</title>
+<ellipse fill="none" stroke="black" cx="2572.37" cy="-2484" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-2481.3" font-family="Arial" font-size="9.00">sexo</text>
+</g>
+<!-- RegistroCampo&#45;&#45;rc_sexo -->
+<g id="edge34" class="edge">
+<title>RegistroCampo--rc_sexo</title>
+<path fill="none" stroke="black" d="M2279.23,-2544.67C2355.31,-2528.87 2490.23,-2500.85 2546.08,-2489.25"/>
+</g>
+<!-- rc_olhos -->
+<g id="node44" class="node">
+<title>rc_olhos</title>
+<ellipse fill="none" stroke="black" cx="2572.37" cy="-2556" rx="72.44" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-2553.3" font-family="Arial" font-size="9.00">distancia_entre_olhos_mm</text>
+</g>
+<!-- RegistroCampo&#45;&#45;rc_olhos -->
+<g id="edge35" class="edge">
+<title>RegistroCampo--rc_olhos</title>
+<path fill="none" stroke="black" d="M2279.23,-2556C2338.72,-2556 2434.19,-2556 2499.7,-2556"/>
+</g>
+<!-- rc_sub -->
+<g id="node45" class="node">
+<title>rc_sub</title>
+<ellipse fill="none" stroke="black" cx="2572.37" cy="-2628" rx="31.09" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-2625.3" font-family="Arial" font-size="9.00">substrato</text>
+</g>
+<!-- RegistroCampo&#45;&#45;rc_sub -->
+<g id="edge36" class="edge">
+<title>RegistroCampo--rc_sub</title>
+<path fill="none" stroke="black" d="M2279.23,-2567.33C2353.79,-2582.81 2484.85,-2610.03 2542.63,-2622.03"/>
+</g>
+<!-- rc_obs -->
+<g id="node46" class="node">
+<title>rc_obs</title>
+<ellipse fill="none" stroke="black" cx="2572.37" cy="-2700" rx="39.3" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-2697.3" font-family="Arial" font-size="9.00">observacoes</text>
+</g>
+<!-- RegistroCampo&#45;&#45;rc_obs -->
+<g id="edge37" class="edge">
+<title>RegistroCampo--rc_obs</title>
+<path fill="none" stroke="black" d="M2263.27,-2574.43C2289.3,-2586.86 2318.9,-2601 2318.9,-2601 2318.9,-2601 2475.32,-2662.33 2541.92,-2688.45"/>
+</g>
+<!-- r12 -->
+<g id="node100" class="node">
+<title>r12</title>
+<polygon fill="#f9e4bc" stroke="black" points="2572.37,-2286 2522.18,-2268 2572.37,-2250 2622.56,-2268 2572.37,-2286"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-2265.3" font-family="Arial" font-size="9.00">documenta</text>
+</g>
+<!-- RegistroCampo&#45;&#45;r12 -->
+<g id="edge95" class="edge">
+<title>RegistroCampo--r12</title>
+<path fill="none" stroke="black" d="M2233.88,-2537.65C2257.59,-2490.4 2318.9,-2368.2 2318.9,-2368.2 2318.9,-2368.2 2484.77,-2302.37 2547.62,-2277.43"/>
+<text xml:space="preserve" text-anchor="middle" x="2389.42" y="-2370.9" font-family="Arial" font-size="9.00">0..1</text>
+</g>
+<!-- Midia -->
+<g id="node47" class="node">
+<title>Midia</title>
+<polygon fill="none" stroke="black" points="2832.88,-3532 2731.32,-3532 2731.32,-3496 2832.88,-3496 2832.88,-3532"/>
+<text xml:space="preserve" text-anchor="middle" x="2782.1" y="-3511" font-family="Arial" font-size="10.00">REGISTRO_MIDIA</text>
+</g>
+<!-- mid_id -->
+<g id="node51" class="node">
+<title>mid_id</title>
+<ellipse fill="none" stroke="black" cx="2991.82" cy="-3423" rx="41.05" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2991.82" y="-3420.3" font-family="Arial" font-size="9.00">id_midia (PK)</text>
+</g>
+<!-- Midia&#45;&#45;mid_id -->
+<g id="edge38" class="edge">
+<title>Midia--mid_id</title>
+<path fill="none" stroke="black" d="M2825.14,-3495.58C2865.8,-3477.77 2926.34,-3451.25 2961.88,-3435.68"/>
+</g>
+<!-- mid_nome -->
+<g id="node52" class="node">
+<title>mid_nome</title>
+<ellipse fill="none" stroke="black" cx="2991.82" cy="-3495" rx="42.53" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2991.82" y="-3492.3" font-family="Arial" font-size="9.00">nome_original</text>
+</g>
+<!-- Midia&#45;&#45;mid_nome -->
+<g id="edge39" class="edge">
+<title>Midia--mid_nome</title>
+<path fill="none" stroke="black" d="M2833.12,-3509.42C2868.89,-3506.15 2916.45,-3501.8 2949.95,-3498.74"/>
+</g>
+<!-- mid_link -->
+<g id="node53" class="node">
+<title>mid_link</title>
+<ellipse fill="none" stroke="black" cx="2991.82" cy="-3567" rx="49.57" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2991.82" y="-3564.3" font-family="Arial" font-size="9.00">caminho_arquivo</text>
+</g>
+<!-- Midia&#45;&#45;mid_link -->
+<g id="edge40" class="edge">
+<title>Midia--mid_link</title>
+<path fill="none" stroke="black" d="M2833.12,-3526.76C2869.13,-3535.95 2917.09,-3548.19 2950.62,-3556.74"/>
+</g>
+<!-- mid_data -->
+<g id="node54" class="node">
+<title>mid_data</title>
+<ellipse fill="none" stroke="black" cx="2991.82" cy="-3639" rx="40.19" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2991.82" y="-3636.3" font-family="Arial" font-size="9.00">data_captura</text>
+</g>
+<!-- Midia&#45;&#45;mid_data -->
+<g id="edge41" class="edge">
+<title>Midia--mid_data</title>
+<path fill="none" stroke="black" d="M2811.34,-3532.44C2851.25,-3558.51 2919.38,-3603 2919.38,-3603 2919.38,-3603 2943.91,-3615.36 2964.22,-3625.59"/>
+</g>
+<!-- mid_hora -->
+<g id="node55" class="node">
+<title>mid_hora</title>
+<ellipse fill="none" stroke="black" cx="2991.82" cy="-3711" rx="40.48" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2991.82" y="-3708.3" font-family="Arial" font-size="9.00">hora_captura</text>
+</g>
+<!-- Midia&#45;&#45;mid_hora -->
+<g id="edge42" class="edge">
+<title>Midia--mid_hora</title>
+<path fill="none" stroke="black" d="M2798.73,-3532.47C2834.53,-3574.76 2919.38,-3675 2919.38,-3675 2919.38,-3675 2943.91,-3687.36 2964.22,-3697.59"/>
+</g>
+<!-- mid_tipo -->
+<g id="node56" class="node">
+<title>mid_tipo</title>
+<ellipse fill="none" stroke="black" cx="2991.82" cy="-3783" rx="50.15" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2991.82" y="-3780.3" font-family="Arial" font-size="9.00">tipo_amostragem</text>
+</g>
+<!-- Midia&#45;&#45;mid_tipo -->
+<g id="edge43" class="edge">
+<title>Midia--mid_tipo</title>
+<path fill="none" stroke="black" d="M2793.79,-3532.28C2825.92,-3587.21 2919.38,-3747 2919.38,-3747 2919.38,-3747 2941.99,-3758.39 2961.77,-3768.36"/>
+</g>
+<!-- mid_vis -->
+<g id="node57" class="node">
+<title>mid_vis</title>
+<ellipse fill="none" stroke="black" cx="2991.82" cy="-3855" rx="42.52" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2991.82" y="-3852.3" font-family="Arial" font-size="9.00">visibilidade_m</text>
+</g>
+<!-- Midia&#45;&#45;mid_vis -->
+<g id="edge44" class="edge">
+<title>Midia--mid_vis</title>
+<path fill="none" stroke="black" d="M2791.22,-3532.17C2820.55,-3597.83 2919.38,-3819 2919.38,-3819 2919.38,-3819 2943.26,-3831.03 2963.41,-3841.18"/>
+</g>
+<!-- mid_prof -->
+<g id="node58" class="node">
+<title>mid_prof</title>
+<ellipse fill="none" stroke="black" cx="2991.82" cy="-3927" rx="47.52" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2991.82" y="-3924.3" font-family="Arial" font-size="9.00">profundidade_m</text>
+</g>
+<!-- Midia&#45;&#45;mid_prof -->
+<g id="edge45" class="edge">
+<title>Midia--mid_prof</title>
+<path fill="none" stroke="black" d="M2789.76,-3532.44C2817.13,-3608.13 2919.38,-3891 2919.38,-3891 2919.38,-3891 2942.3,-3902.55 2962.18,-3912.56"/>
+</g>
+<!-- mid_temp -->
+<g id="node59" class="node">
+<title>mid_temp</title>
+<ellipse fill="none" stroke="black" cx="2991.82" cy="-3999" rx="58.08" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2991.82" y="-3996.3" font-family="Arial" font-size="9.00">temperatura_agua_c</text>
+</g>
+<!-- Midia&#45;&#45;mid_temp -->
+<g id="edge46" class="edge">
+<title>Midia--mid_temp</title>
+<path fill="none" stroke="black" d="M2788.7,-3532.44C2814.34,-3616.93 2919.38,-3963 2919.38,-3963 2919.38,-3963 2940.75,-3973.77 2960.11,-3983.52"/>
+</g>
+<!-- mid_sexo -->
+<g id="node60" class="node">
+<title>mid_sexo</title>
+<ellipse fill="none" stroke="black" cx="2991.82" cy="-4071" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2991.82" y="-4068.3" font-family="Arial" font-size="9.00">sexo</text>
+</g>
+<!-- Midia&#45;&#45;mid_sexo -->
+<g id="edge47" class="edge">
+<title>Midia--mid_sexo</title>
+<path fill="none" stroke="black" d="M2787.87,-3532.24C2811.99,-3624.45 2919.38,-4035 2919.38,-4035 2919.38,-4035 2948.7,-4049.77 2969.78,-4060.39"/>
+</g>
+<!-- mid_olhos -->
+<g id="node61" class="node">
+<title>mid_olhos</title>
+<ellipse fill="none" stroke="black" cx="2991.82" cy="-4143" rx="72.44" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2991.82" y="-4140.3" font-family="Arial" font-size="9.00">distancia_entre_olhos_mm</text>
+</g>
+<!-- Midia&#45;&#45;mid_olhos -->
+<g id="edge48" class="edge">
+<title>Midia--mid_olhos</title>
+<path fill="none" stroke="black" d="M2787.33,-3532.4C2810.33,-3632.49 2919.38,-4107 2919.38,-4107 2919.38,-4107 2939.54,-4117.16 2958.45,-4126.69"/>
+</g>
+<!-- mid_sub -->
+<g id="node62" class="node">
+<title>mid_sub</title>
+<ellipse fill="none" stroke="black" cx="2991.82" cy="-4215" rx="31.09" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2991.82" y="-4212.3" font-family="Arial" font-size="9.00">substrato</text>
+</g>
+<!-- Midia&#45;&#45;mid_sub -->
+<g id="edge49" class="edge">
+<title>Midia--mid_sub</title>
+<path fill="none" stroke="black" d="M2786.89,-3532.48C2808.9,-3639.88 2919.38,-4179 2919.38,-4179 2919.38,-4179 2946.94,-4192.89 2967.83,-4203.41"/>
+</g>
+<!-- mid_obs -->
+<g id="node63" class="node">
+<title>mid_obs</title>
+<ellipse fill="none" stroke="black" cx="2991.82" cy="-3351" rx="39.3" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2991.82" y="-3348.3" font-family="Arial" font-size="9.00">observacoes</text>
+</g>
+<!-- Midia&#45;&#45;mid_obs -->
+<g id="edge50" class="edge">
+<title>Midia--mid_obs</title>
+<path fill="none" stroke="black" d="M2802.92,-3495.53C2840.71,-3460.31 2919.38,-3387 2919.38,-3387 2919.38,-3387 2944.24,-3374.48 2964.63,-3364.2"/>
+</g>
+<!-- r14 -->
+<g id="node102" class="node">
+<title>r14</title>
+<polygon fill="#f9e4bc" stroke="black" points="2991.82,-965 2948.29,-947 2991.82,-929 3035.36,-947 2991.82,-965"/>
+<text xml:space="preserve" text-anchor="middle" x="2991.82" y="-944.3" font-family="Arial" font-size="9.00">classifica</text>
+</g>
+<!-- Midia&#45;&#45;r14 -->
+<g id="edge99" class="edge">
+<title>Midia--r14</title>
+<path fill="none" stroke="black" d="M2784.59,-3495.53C2802.33,-3276.39 2972.21,-1177.01 2989.42,-964.35"/>
+<text xml:space="preserve" text-anchor="middle" x="2876.13" y="-2386.89" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r19 -->
+<g id="node107" class="node">
+<title>r19</title>
+<polygon fill="#f9e4bc" stroke="black" points="2991.82,-3297 2955.74,-3279 2991.82,-3261 3027.91,-3279 2991.82,-3297"/>
+<text xml:space="preserve" text-anchor="middle" x="2991.82" y="-3276.3" font-family="Arial" font-size="9.00">recebe</text>
+</g>
+<!-- Midia&#45;&#45;r19 -->
+<g id="edge109" class="edge">
+<title>Midia--r19</title>
+<path fill="none" stroke="black" d="M2795.68,-3495.73C2829.41,-3446.71 2919.38,-3316 2919.38,-3316 2919.38,-3316 2952.01,-3299.1 2973.16,-3288.15"/>
+<text xml:space="preserve" text-anchor="middle" x="2876.13" y="-3382.74" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- Lote -->
+<g id="node48" class="node">
+<title>Lote</title>
+<polygon fill="none" stroke="black" points="2261.4,-3389 2185.95,-3389 2185.95,-3353 2261.4,-3353 2261.4,-3389"/>
+<text xml:space="preserve" text-anchor="middle" x="2223.67" y="-3368" font-family="Arial" font-size="10.00">LOTE_MIDIA</text>
+</g>
+<!-- lote_id -->
+<g id="node64" class="node">
+<title>lote_id</title>
+<ellipse fill="none" stroke="black" cx="2572.37" cy="-3371" rx="36.95" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-3368.3" font-family="Arial" font-size="9.00">id_lote (PK)</text>
+</g>
+<!-- Lote&#45;&#45;lote_id -->
+<g id="edge51" class="edge">
+<title>Lote--lote_id</title>
+<path fill="none" stroke="black" d="M2261.78,-3371C2328.68,-3371 2468.73,-3371 2535.06,-3371"/>
+</g>
+<!-- r13 -->
+<g id="node101" class="node">
+<title>r13</title>
+<polygon fill="#f9e4bc" stroke="black" points="2572.37,-3317 2535.87,-3299 2572.37,-3281 2608.88,-3299 2572.37,-3317"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-3296.3" font-family="Arial" font-size="9.00">agrupa</text>
+</g>
+<!-- Lote&#45;&#45;r13 -->
+<g id="edge97" class="edge">
+<title>Lote--r13</title>
+<path fill="none" stroke="black" d="M2261.65,-3363.23C2288.04,-3357.68 2318.9,-3351.2 2318.9,-3351.2 2318.9,-3351.2 2481.59,-3317.56 2545.78,-3304.29"/>
+<text xml:space="preserve" text-anchor="middle" x="2389.42" y="-3353.9" font-family="Arial" font-size="9.00">0..1</text>
+</g>
+<!-- Tag -->
+<g id="node49" class="node">
+<title>Tag</title>
+<polygon fill="none" stroke="black" points="3236.33,-3369 3182.33,-3369 3182.33,-3333 3236.33,-3333 3236.33,-3369"/>
+<text xml:space="preserve" text-anchor="middle" x="3209.33" y="-3348" font-family="Arial" font-size="10.00">TAG</text>
+</g>
+<!-- tag_id -->
+<g id="node65" class="node">
+<title>tag_id</title>
+<ellipse fill="none" stroke="black" cx="3403.43" cy="-3423" rx="35.78" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="3403.43" y="-3420.3" font-family="Arial" font-size="9.00">id_tag (PK)</text>
+</g>
+<!-- Tag&#45;&#45;tag_id -->
+<g id="edge52" class="edge">
+<title>Tag--tag_id</title>
+<path fill="none" stroke="black" d="M3236.63,-3360.86C3272.6,-3374.34 3336.87,-3398.43 3373.94,-3412.32"/>
+</g>
+<!-- tag_ativa -->
+<g id="node66" class="node">
+<title>tag_ativa</title>
+<ellipse fill="none" stroke="black" cx="3403.43" cy="-3351" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="3403.43" y="-3348.3" font-family="Arial" font-size="9.00">ativa</text>
+</g>
+<!-- Tag&#45;&#45;tag_ativa -->
+<g id="edge53" class="edge">
+<title>Tag--tag_ativa</title>
+<path fill="none" stroke="black" d="M3236.63,-3351C3273.32,-3351 3339.45,-3351 3376.13,-3351"/>
+</g>
+<!-- Comentario -->
+<g id="node50" class="node">
+<title>Comentario</title>
+<polygon fill="none" stroke="black" points="3267.89,-3513 3150.77,-3513 3150.77,-3477 3267.89,-3477 3267.89,-3513"/>
+<text xml:space="preserve" text-anchor="middle" x="3209.33" y="-3492" font-family="Arial" font-size="10.00">COMENTARIO_MIDIA</text>
+</g>
+<!-- com_id -->
+<g id="node67" class="node">
+<title>com_id</title>
+<ellipse fill="none" stroke="black" cx="3403.43" cy="-3639" rx="54.54" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="3403.43" y="-3636.3" font-family="Arial" font-size="9.00">id_comentario (PK)</text>
+</g>
+<!-- Comentario&#45;&#45;com_id -->
+<g id="edge54" class="edge">
+<title>Comentario--com_id</title>
+<path fill="none" stroke="black" d="M3233.83,-3513.32C3273.36,-3544.13 3348.89,-3603 3348.89,-3603 3348.89,-3603 3364,-3613.16 3378.16,-3622.69"/>
+</g>
+<!-- com_texto -->
+<g id="node68" class="node">
+<title>com_texto</title>
+<ellipse fill="none" stroke="black" cx="3403.43" cy="-3495" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="3403.43" y="-3492.3" font-family="Arial" font-size="9.00">texto</text>
+</g>
+<!-- Comentario&#45;&#45;com_texto -->
+<g id="edge55" class="edge">
+<title>Comentario--com_texto</title>
+<path fill="none" stroke="black" d="M3268.22,-3495C3304.13,-3495 3348.53,-3495 3376.17,-3495"/>
+</g>
+<!-- com_data -->
+<g id="node69" class="node">
+<title>com_data</title>
+<ellipse fill="none" stroke="black" cx="3403.43" cy="-3567" rx="34.02" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="3403.43" y="-3564.3" font-family="Arial" font-size="9.00">criado_em</text>
+</g>
+<!-- Comentario&#45;&#45;com_data -->
+<g id="edge56" class="edge">
+<title>Comentario--com_data</title>
+<path fill="none" stroke="black" d="M3259.3,-3513.35C3295.98,-3527.1 3344.84,-3545.41 3374.94,-3556.7"/>
+</g>
+<!-- Usuario -->
+<g id="node70" class="node">
+<title>Usuario</title>
+<polygon fill="none" stroke="black" points="516.29,-902 454.73,-902 454.73,-866 516.29,-866 516.29,-902"/>
+<text xml:space="preserve" text-anchor="middle" x="485.51" y="-881" font-family="Arial" font-size="10.00">USUARIO</text>
+</g>
+<!-- usu_id -->
+<g id="node73" class="node">
+<title>usu_id</title>
+<ellipse fill="none" stroke="black" cx="688.62" cy="-812" rx="45.75" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-809.3" font-family="Arial" font-size="9.00">id_usuario (PK)</text>
+</g>
+<!-- Usuario&#45;&#45;usu_id -->
+<g id="edge57" class="edge">
+<title>Usuario--usu_id</title>
+<path fill="none" stroke="black" d="M516.62,-873.22C553.44,-860.04 615.57,-837.79 653.94,-824.06"/>
+</g>
+<!-- usu_login -->
+<g id="node74" class="node">
+<title>usu_login</title>
+<ellipse fill="none" stroke="black" cx="688.62" cy="-884" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-881.3" font-family="Arial" font-size="9.00">login</text>
+</g>
+<!-- Usuario&#45;&#45;usu_login -->
+<g id="edge58" class="edge">
+<title>Usuario--usu_login</title>
+<path fill="none" stroke="black" d="M516.62,-884C555.85,-884 623.82,-884 661.16,-884"/>
+</g>
+<!-- usu_email -->
+<g id="node75" class="node">
+<title>usu_email</title>
+<ellipse fill="none" stroke="black" cx="688.62" cy="-596" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-593.3" font-family="Arial" font-size="9.00">email</text>
+</g>
+<!-- Usuario&#45;&#45;usu_email -->
+<g id="edge59" class="edge">
+<title>Usuario--usu_email</title>
+<path fill="none" stroke="black" d="M495.95,-865.88C526.03,-808.1 617.7,-632 617.7,-632 617.7,-632 646.04,-617.41 666.64,-606.8"/>
+</g>
+<!-- usu_hash -->
+<g id="node76" class="node">
+<title>usu_hash</title>
+<ellipse fill="none" stroke="black" cx="688.62" cy="-668" rx="38.13" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-665.3" font-family="Arial" font-size="9.00">senha_hash</text>
+</g>
+<!-- Usuario&#45;&#45;usu_hash -->
+<g id="edge60" class="edge">
+<title>Usuario--usu_hash</title>
+<path fill="none" stroke="black" d="M499.81,-865.75C533.16,-819.99 617.7,-704 617.7,-704 617.7,-704 642.02,-691.48 661.98,-681.2"/>
+</g>
+<!-- usu_ativo -->
+<g id="node77" class="node">
+<title>usu_ativo</title>
+<ellipse fill="none" stroke="black" cx="688.62" cy="-740" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-737.3" font-family="Arial" font-size="9.00">ativo</text>
+</g>
+<!-- Usuario&#45;&#45;usu_ativo -->
+<g id="edge61" class="edge">
+<title>Usuario--usu_ativo</title>
+<path fill="none" stroke="black" d="M508.76,-865.68C546.19,-834.87 617.7,-776 617.7,-776 617.7,-776 646.04,-761.41 666.64,-750.8"/>
+</g>
+<!-- r15 -->
+<g id="node103" class="node">
+<title>r15</title>
+<polygon fill="#f9e4bc" stroke="black" points="852.63,-1205 810.74,-1187 852.63,-1169 894.52,-1187 852.63,-1205"/>
+<text xml:space="preserve" text-anchor="middle" x="852.63" y="-1184.3" font-family="Arial" font-size="9.00">cadastra</text>
+</g>
+<!-- Usuario&#45;&#45;r15 -->
+<g id="edge101" class="edge">
+<title>Usuario--r15</title>
+<path fill="none" stroke="black" d="M491.99,-902.48C509.46,-961.41 562.69,-1141 562.69,-1141 562.69,-1141 746.62,-1170.28 820.98,-1182.12"/>
+<text xml:space="preserve" text-anchor="middle" x="570.19" y="-1145.79" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- r16 -->
+<g id="node104" class="node">
+<title>r16</title>
+<polygon fill="#f9e4bc" stroke="black" points="1479.04,-1131 1437.16,-1113 1479.04,-1095 1520.93,-1113 1479.04,-1131"/>
+<text xml:space="preserve" text-anchor="middle" x="1479.04" y="-1110.3" font-family="Arial" font-size="9.00">cadastra</text>
+</g>
+<!-- Usuario&#45;&#45;r16 -->
+<g id="edge103" class="edge">
+<title>Usuario--r16</title>
+<path fill="none" stroke="black" d="M499.09,-902.41C531.92,-950.47 617.7,-1076 617.7,-1076 617.7,-1076 687.62,-1113 687.62,-1113 687.62,-1113 687.62,-1113 1175.43,-1113 1175.43,-1113 1352.82,-1113 1435.97,-1113"/>
+<text xml:space="preserve" text-anchor="middle" x="852.63" y="-1115.7" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- r17 -->
+<g id="node105" class="node">
+<title>r17</title>
+<polygon fill="#f9e4bc" stroke="black" points="688.62,-1058 653.78,-1040 688.62,-1022 723.46,-1040 688.62,-1058"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-1037.3" font-family="Arial" font-size="9.00">possui</text>
+</g>
+<!-- Usuario&#45;&#45;r17 -->
+<g id="edge105" class="edge">
+<title>Usuario--r17</title>
+<path fill="none" stroke="black" d="M506.72,-902.49C543.52,-936.15 617.7,-1004 617.7,-1004 617.7,-1004 649.63,-1020.44 670.33,-1031.1"/>
+<text xml:space="preserve" text-anchor="middle" x="570.19" y="-967.89" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r18 -->
+<g id="node106" class="node">
+<title>r18</title>
+<polygon fill="#f9e4bc" stroke="black" points="1746.91,-583 1707.52,-565 1746.91,-547 1786.31,-565 1746.91,-583"/>
+<text xml:space="preserve" text-anchor="middle" x="1746.91" y="-562.3" font-family="Arial" font-size="9.00">escreve</text>
+</g>
+<!-- Usuario&#45;&#45;r18 -->
+<g id="edge107" class="edge">
+<title>Usuario--r18</title>
+<path fill="none" stroke="black" d="M491.19,-865.57C521.38,-746.5 687.62,-91 687.62,-91 687.62,-91 687.62,-91 1480.04,-91 1480.04,-91 1693.72,-471.95 1737.96,-550.81"/>
+<text xml:space="preserve" text-anchor="middle" x="1014.57" y="-93.7" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- r20 -->
+<g id="node108" class="node">
+<title>r20</title>
+<polygon fill="#f9e4bc" stroke="black" points="688.62,-986 653.37,-968 688.62,-950 723.87,-968 688.62,-986"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-965.3" font-family="Arial" font-size="9.00">realiza</text>
+</g>
+<!-- Usuario&#45;&#45;r20 -->
+<g id="edge111" class="edge">
+<title>Usuario--r20</title>
+<path fill="none" stroke="black" d="M516.61,-898.22C555.34,-916.53 617.7,-946 617.7,-946 617.7,-946 645.35,-954.7 665.88,-961.16"/>
+<text xml:space="preserve" text-anchor="middle" x="570.19" y="-928.65" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- r24 -->
+<g id="node112" class="node">
+<title>r24</title>
+<polygon fill="#f9e4bc" stroke="black" points="688.62,-1424 617.7,-1406 688.62,-1388 759.54,-1406 688.62,-1424"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-1403.3" font-family="Arial" font-size="9.00">cadastra relatorio</text>
+</g>
+<!-- Usuario&#45;&#45;r24 -->
+<g id="edge119" class="edge">
+<title>Usuario--r24</title>
+<path fill="none" stroke="black" d="M489.69,-902.47C504.1,-986.31 562.69,-1327 562.69,-1327 562.69,-1327 631.87,-1370.75 667.27,-1393.13"/>
+<text xml:space="preserve" text-anchor="middle" x="570.19" y="-1337.92" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- r25 -->
+<g id="node113" class="node">
+<title>r25</title>
+<polygon fill="#f9e4bc" stroke="black" points="1174.43,-1346 1123.41,-1328 1174.43,-1310 1225.45,-1328 1174.43,-1346"/>
+<text xml:space="preserve" text-anchor="middle" x="1174.43" y="-1325.3" font-family="Arial" font-size="9.00">vinculado a</text>
+</g>
+<!-- Usuario&#45;&#45;r25 -->
+<g id="edge121" class="edge">
+<title>Usuario--r25</title>
+<path fill="none" stroke="black" d="M491.51,-902.31C508.46,-964.38 562.69,-1163 562.69,-1163 562.69,-1163 799.54,-1276 799.54,-1276 799.54,-1276 1042.23,-1309.75 1136.56,-1322.87"/>
+<text xml:space="preserve" text-anchor="middle" x="688.62" y="-1259.28" font-family="Arial" font-size="9.00">0..1</text>
+</g>
+<!-- r28 -->
+<g id="node118" class="node">
+<title>r28</title>
+<polygon fill="#f9e4bc" stroke="black" points="2067.89,-482 2021.85,-464 2067.89,-446 2113.93,-464 2067.89,-482"/>
+<text xml:space="preserve" text-anchor="middle" x="2067.89" y="-461.3" font-family="Arial" font-size="9.00">atribui tag</text>
+</g>
+<!-- Usuario&#45;&#45;r28 -->
+<g id="edge129" class="edge">
+<title>Usuario--r28</title>
+<path fill="none" stroke="black" d="M489.5,-865.74C509.02,-746.36 617.7,-82 617.7,-82 617.7,-82 687.62,0 687.62,0 687.62,0 687.62,0 1747.91,0 1747.91,0 2003.71,-372.1 2057.17,-449.86"/>
+<text xml:space="preserve" text-anchor="middle" x="1174.43" y="-2.7" font-family="Arial" font-size="9.00">1</text>
+</g>
+<!-- Permissao -->
+<g id="node71" class="node">
+<title>Permissao</title>
+<polygon fill="none" stroke="black" points="1052.3,-858 976.84,-858 976.84,-822 1052.3,-822 1052.3,-858"/>
+<text xml:space="preserve" text-anchor="middle" x="1014.57" y="-837" font-family="Arial" font-size="10.00">PERMISSAO</text>
+</g>
+<!-- per_id -->
+<g id="node78" class="node">
+<title>per_id</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-740" rx="52.78" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-737.3" font-family="Arial" font-size="9.00">id_permissao (PK)</text>
+</g>
+<!-- Permissao&#45;&#45;per_id -->
+<g id="edge62" class="edge">
+<title>Permissao--per_id</title>
+<path fill="none" stroke="black" d="M1052.56,-827.74C1110.3,-808.6 1221.25,-771.82 1279.47,-752.52"/>
+</g>
+<!-- per_cod -->
+<g id="node79" class="node">
+<title>per_cod</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-812" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-809.3" font-family="Arial" font-size="9.00">codigo</text>
+</g>
+<!-- Permissao&#45;&#45;per_cod -->
+<g id="edge63" class="edge">
+<title>Permissao--per_cod</title>
+<path fill="none" stroke="black" d="M1052.56,-836.57C1114.39,-830.83 1237.24,-819.42 1291.01,-814.43"/>
+</g>
+<!-- per_desc -->
+<g id="node80" class="node">
+<title>per_desc</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-884" rx="31.96" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-881.3" font-family="Arial" font-size="9.00">descricao</text>
+</g>
+<!-- Permissao&#45;&#45;per_desc -->
+<g id="edge64" class="edge">
+<title>Permissao--per_desc</title>
+<path fill="none" stroke="black" d="M1052.56,-845.4C1112.82,-854.18 1231.03,-871.43 1286.77,-879.56"/>
+</g>
+<!-- Historico -->
+<g id="node72" class="node">
+<title>Historico</title>
+<polygon fill="none" stroke="black" points="1083.41,-470 945.72,-470 945.72,-434 1083.41,-434 1083.41,-470"/>
+<text xml:space="preserve" text-anchor="middle" x="1014.57" y="-449" font-family="Arial" font-size="10.00">HISTORICO_ALTERACAO</text>
+</g>
+<!-- hist_id -->
+<g id="node81" class="node">
+<title>hist_id</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-596" rx="50.15" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-593.3" font-family="Arial" font-size="9.00">id_alteracao (PK)</text>
+</g>
+<!-- Historico&#45;&#45;hist_id -->
+<g id="edge65" class="edge">
+<title>Historico--hist_id</title>
+<path fill="none" stroke="black" d="M1054.08,-470.38C1114.92,-499.42 1231.99,-555.31 1287.12,-581.63"/>
+</g>
+<!-- hist_tabela -->
+<g id="node82" class="node">
+<title>hist_tabela</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-668" rx="39.89" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-665.3" font-family="Arial" font-size="9.00">nome_tabela</text>
+</g>
+<!-- Historico&#45;&#45;hist_tabela -->
+<g id="edge66" class="edge">
+<title>Historico--hist_tabela</title>
+<path fill="none" stroke="black" d="M1038.7,-470.45C1070.39,-495.72 1123.41,-538 1123.41,-538 1123.41,-538 1244.09,-618.94 1295,-653.09"/>
+</g>
+<!-- hist_chave -->
+<g id="node83" class="node">
+<title>hist_chave</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-164" rx="43.99" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-161.3" font-family="Arial" font-size="9.00">chave_registro</text>
+</g>
+<!-- Historico&#45;&#45;hist_chave -->
+<g id="edge67" class="edge">
+<title>Historico--hist_chave</title>
+<path fill="none" stroke="black" d="M1027.11,-433.59C1054.93,-389.22 1123.41,-280 1123.41,-280 1123.41,-280 1239.94,-210.26 1292.29,-178.93"/>
+</g>
+<!-- hist_op -->
+<g id="node84" class="node">
+<title>hist_op</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-236" rx="31.38" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-233.3" font-family="Arial" font-size="9.00">operacao</text>
+</g>
+<!-- Historico&#45;&#45;hist_op -->
+<g id="edge68" class="edge">
+<title>Historico--hist_op</title>
+<path fill="none" stroke="black" d="M1033.38,-433.84C1064.01,-402.59 1123.41,-342 1123.41,-342 1123.41,-342 1243.49,-276.33 1294.62,-248.37"/>
+</g>
+<!-- hist_ant -->
+<g id="node85" class="node">
+<title>hist_ant</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-308" rx="50.16" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-305.3" font-family="Arial" font-size="9.00">dados_anteriores</text>
+</g>
+<!-- Historico&#45;&#45;hist_ant -->
+<g id="edge69" class="edge">
+<title>Historico--hist_ant</title>
+<path fill="none" stroke="black" d="M1049.69,-433.65C1081.29,-416.66 1123.41,-394 1123.41,-394 1123.41,-394 1230.74,-346.38 1285.66,-322.01"/>
+</g>
+<!-- hist_novo -->
+<g id="node86" class="node">
+<title>hist_novo</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-380" rx="40.77" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-377.3" font-family="Arial" font-size="9.00">dados_novos</text>
+</g>
+<!-- Historico&#45;&#45;hist_novo -->
+<g id="edge70" class="edge">
+<title>Historico--hist_novo</title>
+<path fill="none" stroke="black" d="M1083.64,-435.75C1145.16,-421.07 1233.28,-400.04 1281.8,-388.46"/>
+</g>
+<!-- hist_data -->
+<g id="node87" class="node">
+<title>hist_data</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-452" rx="38.71" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-449.3" font-family="Arial" font-size="9.00">alterado_em</text>
+</g>
+<!-- Historico&#45;&#45;hist_data -->
+<g id="edge71" class="edge">
+<title>Historico--hist_data</title>
+<path fill="none" stroke="black" d="M1083.64,-452C1144.12,-452 1230.3,-452 1279.3,-452"/>
+</g>
+<!-- hist_just -->
+<g id="node88" class="node">
+<title>hist_just</title>
+<ellipse fill="none" stroke="black" cx="1318.23" cy="-524" rx="35.19" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-521.3" font-family="Arial" font-size="9.00">justificativa</text>
+</g>
+<!-- Historico&#45;&#45;hist_just -->
+<g id="edge72" class="edge">
+<title>Historico--hist_just</title>
+<path fill="none" stroke="black" d="M1083.64,-468.25C1146.9,-483.35 1238.28,-505.15 1285.82,-516.5"/>
+</g>
+<!-- r1&#45;&#45;Local -->
+<g id="edge74" class="edge">
+<title>r1--Local</title>
+<path fill="none" stroke="black" d="M403.34,-2199.89C459.2,-2204.98 569.19,-2215 569.19,-2215 569.19,-2215 569.19,-2215 1175.43,-2215 1175.43,-2215 1547.07,-2151 1547.07,-2151 1547.07,-2151 1604.78,-1924.44 1621.69,-1858.06"/>
+<text xml:space="preserve" text-anchor="middle" x="852.63" y="-2217.7" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r2&#45;&#45;Expedicao -->
+<g id="edge76" class="edge">
+<title>r2--Expedicao</title>
+<path fill="none" stroke="black" d="M261.68,-2058.67C276.44,-2052.67 292.86,-2046 292.86,-2046 292.86,-2046 405.78,-1967.05 458.26,-1930.35"/>
+<text xml:space="preserve" text-anchor="middle" x="370.6" y="-2019.76" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r3&#45;&#45;Integrante -->
+<g id="edge78" class="edge">
+<title>r3--Integrante</title>
+<path fill="none" stroke="black" d="M717.66,-2062.34C865.44,-2032.53 1547.07,-1895 1547.07,-1895 1547.07,-1895 1605.58,-1641.69 1622.04,-1570.44"/>
+<text xml:space="preserve" text-anchor="middle" x="1174.43" y="-1982.2" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- chefe -->
+<g id="node116" class="node">
+<title>chefe</title>
+<ellipse fill="none" stroke="black" cx="1014.57" cy="-2068" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1014.57" y="-2065.3" font-family="Arial" font-size="9.00">chefe</text>
+</g>
+<!-- r3&#45;&#45;chefe -->
+<g id="edge127" class="edge">
+<title>r3--chefe</title>
+<path fill="none" stroke="black" d="M731.31,-2068C798.98,-2068 930.82,-2068 987.09,-2068"/>
+</g>
+<!-- r4&#45;&#45;Relatorio -->
+<g id="edge80" class="edge">
+<title>r4--Relatorio</title>
+<path fill="none" stroke="black" d="M716.13,-1504.26C773.93,-1513.53 911.37,-1535.6 977.2,-1546.16"/>
+<text xml:space="preserve" text-anchor="middle" x="852.63" y="-1536.4" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r5&#45;&#45;Integrante -->
+<g id="edge82" class="edge">
+<title>r5--Integrante</title>
+<path fill="none" stroke="black" d="M1343.84,-1485.77C1396.85,-1498.2 1522.24,-1527.6 1586.62,-1542.7"/>
+<text xml:space="preserve" text-anchor="middle" x="1479.04" y="-1535.39" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r6&#45;&#45;Genero -->
+<g id="edge84" class="edge">
+<title>r6--Genero</title>
+<path fill="none" stroke="black" d="M712.13,-2295.08C732.57,-2301.51 759.54,-2310 759.54,-2310 759.54,-2310 954.46,-2645.33 1002.82,-2728.5"/>
+<text xml:space="preserve" text-anchor="middle" x="852.63" y="-2557.36" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r7&#45;&#45;Especie -->
+<g id="edge86" class="edge">
+<title>r7--Especie</title>
+<path fill="none" stroke="black" d="M1344.49,-3210.24C1403.81,-3196.7 1547.07,-3164 1547.07,-3164 1547.07,-3164 1574.63,-3152.87 1597.24,-3143.73"/>
+<text xml:space="preserve" text-anchor="middle" x="1479.04" y="-3197.36" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r8&#45;&#45;RegistroCampo -->
+<g id="edge88" class="edge">
+<title>r8--RegistroCampo</title>
+<path fill="none" stroke="black" d="M1509.16,-2298.51C1621.45,-2339.03 2027.34,-2485.51 2171.47,-2537.52"/>
+<text xml:space="preserve" text-anchor="middle" x="1746.91" y="-2399.26" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r9&#45;&#45;RegistroCampo -->
+<g id="edge90" class="edge">
+<title>r9--RegistroCampo</title>
+<path fill="none" stroke="black" d="M1929.73,-3205.9C1948.01,-3200.12 1967.34,-3194 1967.34,-3194 1967.34,-3194 2128.45,-2991 2128.45,-2991 2128.45,-2991 2200.75,-2657.21 2218.69,-2574.41"/>
+<text xml:space="preserve" text-anchor="middle" x="2067.89" y="-3142.26" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r10&#45;&#45;RegistroCampo -->
+<g id="edge92" class="edge">
+<title>r10--RegistroCampo</title>
+<path fill="none" stroke="black" d="M1915.72,-1489.53C1936.32,-1500.49 1967.34,-1517 1967.34,-1517 1967.34,-1517 2007.34,-1904 2007.34,-1904 2007.34,-1904 2128.45,-2195.2 2128.45,-2195.2 2128.45,-2195.2 2198.67,-2464.09 2217.87,-2537.61"/>
+<text xml:space="preserve" text-anchor="middle" x="2067.89" y="-2197.9" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r11&#45;&#45;Midia -->
+<g id="edge94" class="edge">
+<title>r11--Midia</title>
+<path fill="none" stroke="black" d="M2078.99,-1488.23C2095.98,-1510.49 2128.45,-1553 2128.45,-1553 2128.45,-1553 2168.45,-1639 2168.45,-1639 2168.45,-1639 2652.82,-2232 2652.82,-2232 2652.82,-2232 2763.58,-3338.89 2779.26,-3495.63"/>
+<text xml:space="preserve" text-anchor="middle" x="2389.42" y="-1994.5" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r12&#45;&#45;Midia -->
+<g id="edge96" class="edge">
+<title>r12--Midia</title>
+<path fill="none" stroke="black" d="M2595.08,-2278.11C2618.6,-2289.07 2652.82,-2305 2652.82,-2305 2652.82,-2305 2763.23,-3345.58 2779.19,-3495.97"/>
+<text xml:space="preserve" text-anchor="middle" x="2688.07" y="-2664.94" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r13&#45;&#45;Midia -->
+<g id="edge98" class="edge">
+<title>r13--Midia</title>
+<path fill="none" stroke="black" d="M2596.78,-3305.48C2620.21,-3311.97 2652.82,-3321 2652.82,-3321 2652.82,-3321 2737.1,-3447.8 2769.03,-3495.84"/>
+<text xml:space="preserve" text-anchor="middle" x="2688.07" y="-3380.73" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r14&#45;&#45;Tag -->
+<g id="edge100" class="edge">
+<title>r14--Tag</title>
+<path fill="none" stroke="black" d="M3013.1,-956.66C3046.82,-972.73 3110.77,-1003.2 3110.77,-1003.2 3110.77,-1003.2 3198.49,-3114.26 3207.57,-3332.78"/>
+<text xml:space="preserve" text-anchor="middle" x="3107.52" y="-1005.9" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- atrib_data -->
+<g id="node117" class="node">
+<title>atrib_data</title>
+<ellipse fill="none" stroke="black" cx="3209.33" cy="-944" rx="39.89" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="3209.33" y="-941.3" font-family="Arial" font-size="9.00">atribuida_em</text>
+</g>
+<!-- r14&#45;&#45;atrib_data -->
+<g id="edge128" class="edge">
+<title>r14--atrib_data</title>
+<path fill="none" stroke="black" d="M3035.14,-946.41C3074,-945.87 3131.13,-945.07 3169.01,-944.55"/>
+</g>
+<!-- r15&#45;&#45;RegistroCampo -->
+<g id="edge102" class="edge">
+<title>r15--RegistroCampo</title>
+<path fill="none" stroke="black" d="M895.77,-1187C982.61,-1187 1173.43,-1187 1173.43,-1187 1173.43,-1187 1173.43,-1187 1747.91,-1187 1747.91,-1187 1967.34,-1298 1967.34,-1298 1967.34,-1298 2128.45,-1439 2128.45,-1439 2128.45,-1439 2208.87,-2392.31 2221.12,-2537.54"/>
+<text xml:space="preserve" text-anchor="middle" x="1479.04" y="-1189.7" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r16&#45;&#45;Midia -->
+<g id="edge104" class="edge">
+<title>r16--Midia</title>
+<path fill="none" stroke="black" d="M1522.17,-1113C1597.14,-1113 1745.91,-1113 1745.91,-1113 1745.91,-1113 1745.91,-1113 2573.37,-1113 2573.37,-1113 2652.82,-1778 2652.82,-1778 2652.82,-1778 2766.03,-3310.15 2779.74,-3495.68"/>
+<text xml:space="preserve" text-anchor="middle" x="2067.89" y="-1115.7" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r17&#45;&#45;Permissao -->
+<g id="edge106" class="edge">
+<title>r17--Permissao</title>
+<path fill="none" stroke="black" d="M706.9,-1031.1C727.61,-1020.44 759.54,-1004 759.54,-1004 759.54,-1004 918.49,-901.38 984.92,-858.49"/>
+<text xml:space="preserve" text-anchor="middle" x="852.63" y="-979.21" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r18&#45;&#45;Comentario -->
+<g id="edge108" class="edge">
+<title>r18--Comentario</title>
+<path fill="none" stroke="black" d="M1757.12,-578.67C1809.42,-656.39 2066.89,-1039 2066.89,-1039 2066.89,-1039 2066.89,-1039 2992.82,-1039 2992.82,-1039 3150.77,-3387 3150.77,-3387 3150.77,-3387 3182.14,-3445.87 3198.56,-3476.68"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-1041.7" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r19&#45;&#45;Comentario -->
+<g id="edge110" class="edge">
+<title>r19--Comentario</title>
+<path fill="none" stroke="black" d="M3010.48,-3288.15C3031.64,-3299.1 3064.27,-3316 3064.27,-3316 3064.27,-3316 3156.65,-3430.78 3193.45,-3476.52"/>
+<text xml:space="preserve" text-anchor="middle" x="3107.52" y="-3371.59" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r20&#45;&#45;Historico -->
+<g id="edge112" class="edge">
+<title>r20--Historico</title>
+<path fill="none" stroke="black" d="M711.36,-961.16C731.88,-954.7 759.54,-946 759.54,-946 759.54,-946 957.96,-560.14 1004.07,-470.46"/>
+<text xml:space="preserve" text-anchor="middle" x="852.63" y="-865.88" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r21&#45;&#45;RegistroCampo -->
+<g id="edge114" class="edge">
+<title>r21--RegistroCampo</title>
+<path fill="none" stroke="black" d="M887.04,-2147.69C950.77,-2160.45 1083.41,-2187 1083.41,-2187 1083.41,-2187 1667.52,-2320 1667.52,-2320 1667.52,-2320 1967.34,-2406 1967.34,-2406 1967.34,-2406 2128.45,-2470 2128.45,-2470 2128.45,-2470 2175.03,-2512.52 2202.69,-2537.76"/>
+<text xml:space="preserve" text-anchor="middle" x="1479.04" y="-2294.85" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r22&#45;&#45;RegistroCampo -->
+<g id="edge116" class="edge">
+<title>r22--RegistroCampo</title>
+<path fill="none" stroke="black" d="M1907.49,-1349.3C1926.59,-1379.52 1967.34,-1444 1967.34,-1444 1967.34,-1444 2128.45,-1884.2 2128.45,-1884.2 2128.45,-1884.2 2168.45,-2180 2168.45,-2180 2168.45,-2180 2209.13,-2462.12 2220.02,-2537.61"/>
+<text xml:space="preserve" text-anchor="middle" x="2067.89" y="-1886.9" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r23&#45;&#45;Midia -->
+<g id="edge118" class="edge">
+<title>r23--Midia</title>
+<path fill="none" stroke="black" d="M2095.88,-1156.97C2111.64,-1162.79 2128.45,-1169 2128.45,-1169 2128.45,-1169 2652.82,-2037 2652.82,-2037 2652.82,-2037 2764.74,-3325.7 2779.5,-3495.59"/>
+<text xml:space="preserve" text-anchor="middle" x="2389.42" y="-1711.28" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r24&#45;&#45;Relatorio -->
+<g id="edge120" class="edge">
+<title>r24--Relatorio</title>
+<path fill="none" stroke="black" d="M715.31,-1417.58C772.62,-1443.41 911.09,-1505.81 977.22,-1535.62"/>
+<text xml:space="preserve" text-anchor="middle" x="852.63" y="-1503.31" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r25&#45;&#45;Integrante -->
+<g id="edge122" class="edge">
+<title>r25--Integrante</title>
+<path fill="none" stroke="black" d="M1198.12,-1338.13C1278.81,-1374.18 1547.07,-1494 1547.07,-1494 1547.07,-1494 1578.02,-1516.66 1601.23,-1533.65"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.23" y="-1420.81" font-family="Arial" font-size="9.00">0..1</text>
+</g>
+<!-- r26&#45;&#45;Midia -->
+<g id="edge124" class="edge">
+<title>r26--Midia</title>
+<path fill="none" stroke="black" d="M2421.51,-4289.16C2440.02,-4283.3 2459.93,-4277 2459.93,-4277 2459.93,-4277 2691.32,-3893 2691.32,-3893 2691.32,-3893 2758.83,-3607.99 2776.77,-3532.28"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-4210.19" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r27&#45;&#45;Midia -->
+<g id="edge126" class="edge">
+<title>r27--Midia</title>
+<path fill="none" stroke="black" d="M2460.39,-3251.32C2538.12,-3251.68 2652.82,-3252.2 2652.82,-3252.2 2652.82,-3252.2 2742.88,-3436 2772.08,-3495.59"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-3254.9" font-family="Arial" font-size="9.00">N</text>
+</g>
+<!-- r28&#45;&#45;r14 -->
+<g id="edge130" class="edge">
+<title>r28--r14</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2078.45,-478.13C2131.62,-556.66 2388.42,-936 2388.42,-936 2388.42,-936 2388.42,-936 2783.1,-936 2783.1,-936 2892.17,-941.78 2952.24,-944.96"/>
+<text xml:space="preserve" text-anchor="middle" x="2572.37" y="-938.7" font-family="Arial" font-size="9.00">N</text>
+</g>
+</g>
+</svg>
